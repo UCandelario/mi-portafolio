@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio — Ulises Ramses Candelario</title>
+    <meta name="description"
+        content="Portafolio de proyectos de Ulises Ramses Candelario con enlaces y descripciones accesibles.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Saltar al contenido principal</a>
+
+    <header role="banner">
+        <div class="header-contact">
+            <h1 class="site-title">Ulises Ramses Candelario Sánchez</h1>
+            <p>Tecomán, Colima, México |
+                <a href="mailto:urcs2019@gmail.com">urcs2019@gmail.com</a> |
+                <a href="tel:+523131560781">+52 313-156-0781</a>
+            </p>
+            <div class="header-links">
+                <a href="https://linkedin.com/in/ulises-ramses" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/UCandelario" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </div>
+        <nav aria-label="Navegación principal">
+            <button id="menuButton" class="burger" aria-expanded="false" aria-controls="primary-nav"
+                aria-label="Abrir menú principal">
+                <span></span><span></span><span></span>
+            </button>
+            <ul id="primary-nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="portafolio.html" aria-current="page">Portafolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+        <section id="proyectos" aria-labelledby="proj-title">
+            <h2 id="proj-title">Portafolio de proyectos</h2>
+
+            <table class="proyectos-table">
+                <caption>Proyectos y responsabilidades</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Proyecto</th>
+                        <th scope="col">Descripción</th>
+                        <th scope="col">Responsable(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <a href="https://github.com/UCandelario/Control_Inventario" target="_blank" rel="noopener">
+                                Control de Inventario (GitHub)
+                            </a>
+                        </th>
+                        <td>Sistema web para gestión y control de inventarios (HTML + JavaScript).</td>
+                        <td>Ulises Candelario</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <a href="https://github.com/UCandelario/Bookstore" target="_blank" rel="noopener">
+                                Catálogo de Libros (GitHub)
+                            </a>
+                        </th>
+                        <td>Registro, búsqueda y eliminación de libros. Proyecto en HTML.</td>
+                        <td>Ulises Candelario</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <a href="https://github.com/UCandelario/Bomba_riego" target="_blank" rel="noopener">
+                                Bomba de Riego (GitHub)
+                            </a>
+                        </th>
+                        <td>Interfaz web para el control de una bomba de riego automatizada.</td>
+                        <td>Ulises Candelario</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <a href="https://github.com/UCandelario/Servidor" target="_blank" rel="noopener">
+                                Servidor Básico (GitHub)
+                            </a>
+                        </th>
+                        <td>Servidor en PHP para prácticas de backend y manejo de peticiones.</td>
+                        <td>Ulises Candelario</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <a href="https://github.com/UCandelario/JWT" target="_blank" rel="noopener">
+                                Autenticación JWT (GitHub)
+                            </a>
+                        </th>
+                        <td>Implementación de autenticación con JSON Web Tokens en JavaScript.</td>
+                        <td>Ulises Candelario</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <a href="https://github.com/UCandelario/API_Alumnos" target="_blank" rel="noopener">
+                                API Alumnos (GitHub)
+                            </a>
+                        </th>
+                        <td>API RESTful para gestión de alumnos, desarrollada como examen práctico.</td>
+                        <td>Ulises Candelario</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <a href="https://github.com/UCandelario/API_Automoviles" target="_blank" rel="noopener">
+                                API Automóviles (GitHub)
+                            </a>
+                        </th>
+                        <td>API para administración de automóviles, actividad académica en HTML y JS.</td>
+                        <td>Ulises Candelario</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>© 2025 Ulises Ramses Candelario Sánchez | <a href="mailto:urcs2019@gmail.com">urcs2019@gmail.com</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
