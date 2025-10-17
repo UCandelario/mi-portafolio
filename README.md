@@ -15,4 +15,4 @@ Este sitio personal incluye mejoras de **accesibilidad** alineadas a WCAG 2.2 (A
 - Prueba navegación por teclado (Tab/Shift+Tab, Enter/Espacio, Escape para cerrar el menú).
 
 ## Despliegue
-Funciona en hosting estático (GitHub Pages, Netlify, Vercel). Solo sube los archivos.
+Funciona en hosting estático (GitHub Pages, Netlify, Vercel).
