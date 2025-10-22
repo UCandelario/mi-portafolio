@@ -160,7 +160,19 @@ input:focus, textarea:focus, .burger:focus, button:focus, a:focus {
   outline-offset: 2px;
 }
 input[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: var(--error); }
-.error { display: block; color: #fff; background: var(--error); padding: .35rem .5rem; border-radius: .35rem; margin-top: .25rem; }
+.error {
+  display: block;
+  color: #fff;
+  background: var(--error);
+  padding: .35rem .5rem;
+  border-radius: .35rem;
+  margin-top: .25rem;
+}
+
+/* Campos válidos en verde para retroalimentación visual */
+input:valid, textarea:valid {
+  border-color: #2e7d32; /* verde accesible AA */
+}
 
 /* Botones */
 button {
